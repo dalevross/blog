@@ -7,6 +7,7 @@ description: A few days ago I decided to redo my resume. I decided to head over 
 comments: true
 image: jsonresume.png
 twitter-image: jsonresume-t.png
+tags: resume hacker json javascript
 ---
 
 A few days ago I decided to redo my resume. I decided to head over to hacker news to see if I could find a cool hacker way to get it done. As my wife “[The Irie Happy Vegan](http://www.dajeneats.com "Irie Happy Vegan")” would say, I needed to find a bulldozer to kill this fly. I saw a post that I had come across before about [jsonresume](https://jsonresume.org/).  I decided to take it for a spin and thought it was pretty neat.

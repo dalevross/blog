@@ -1,0 +1,93 @@
+.post-tag {
+    display: inline-block;
+    background: $grey-color-light;
+    padding: 0 .5rem;
+    margin-right: .5rem;
+    border-radius: 4px;
+    color: $text-color;
+    font-size: 90%;
+
+    &:before {
+        content: "\f02b";
+        font-family: FontAwesome;
+        padding-right: .5em;
+    }
+
+    &:hover {
+        text-decoration: none;
+        background: $grey-color;
+        color: $background-color;
+    }
+}
+
+.post-link {
+    display: block;
+    @include relative-font-size(1.125);
+}
+
+.post-title {
+    letter-spacing: -1px;
+    line-height: 1;
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+        @include relative-font-size(1.5);
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        @include relative-font-size(1.5);
+
+        @include media-query($on-laptop) {
+            @include relative-font-size(1.375);
+        }
+    }
+
+    h3 {
+        @include relative-font-size(1.25);
+
+        @include media-query($on-laptop) {
+            @include relative-font-size(1.125);
+        }
+    }
+
+    h4 {
+        @include relative-font-size(1.1);
+
+        @include media-query($on-laptop) {
+            @include relative-font-size(1.0);
+        }
+    }
+}
+
+.prev-next {
+    display: block;
+    overflow: hidden;
+    @include relative-font-size(0.9);
+}
+
+.prev-next .half {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+}
+
+.prev-next .next {
+    text-align: right;
+}
+
+#markdown-toc::before {
+    content: "Contents";
+    margin-left: -$spacing-unit;
+    line-height: 200%;
+    font-weight: bold;
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+        @include relative-font-size(1.125);
+    }
+}
