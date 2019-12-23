@@ -1,0 +1,20 @@
+---
+layout: post
+title: When jQuery met Wikipedia for a game of Scrabble
+date: '2013-08-17T19:31:00.000-07:00'
+author: Dale V. Ross
+tags:
+- jsshell
+- Scrabble
+- Addon
+- Google Chrome
+- JSON
+- Wikipedia
+- jQuery
+- Scrabble Tile Values
+modified_time: '2019-11-11T00:23:53.443-08:00'
+blogger_id: tag:blogger.com,1999:blog-748479084389931429.post-247155902087904521
+blogger_orig_url: https://blog.dalevross.com/2013/08/jquery-wikipedia-scrabble.html
+---
+
+I needed to obtain a <a href="http://www.json.org/" target="_blank">JSON </a>object containing the tile values on scrabble tiles for a <a href="http://tinyurl.com/free-tracker" target="_blank">project </a>I took on. This was across 8 dictionaries (6 languages). The problem was, I couldn't &nbsp;find a good source for the required data. I have since found a far easier way to obtain the data but it was still a fun challenge.<br /><br />The best I could do at the time was&nbsp;<a href="http://en.wikipedia.org/wiki/Scrabble_letter_distributions" target="_blank">http://en.wikipedia.org/wiki/Scrabble_letter_distributions</a>.<br /><br />The data was laid out as displayed below and it didn't look very friendly.<br /><br /><div style="border: 1px solid green;"><h3><span class="mw-headline" id="English">English</span></h3><a href="http://www.blogger.com/wiki/English_language" title="English language">English</a>-language editions of Scrabble contain 100 letter tiles, in the following distribution:<br /><ul><li>2 blank tiles (scoring 0 points)</li><li><i>1 point</i>: <b>E</b> ×12, <b>A</b> ×9, <b>I</b> ×9, <b>O</b> ×8, <b>N</b> ×6, <b>R</b> ×6, <b>T</b> ×6, <b>L</b> ×4, <b>S</b> ×4, <b>U</b> ×4</li><li><i>2 points</i>: <b>D</b> ×4, <b>G</b> ×3</li><li><i>3 points</i>: <b>B</b> ×2, <b>C</b> ×2, <b>M</b> ×2, <b>P</b> ×2</li><li><i>4 points</i>: <b>F</b> ×2, <b>H</b> ×2, <b>V</b> ×2, <b>W</b> ×2, <b>Y</b> ×2</li><li><i>5 points</i>: <b>K</b> ×1</li><li><i>8 points</i>: <b>J</b> ×1, <b>X</b> ×1</li><li><i>10 points</i>: <b>Q</b> ×1, <b>Z</b> ×1</li></ul></div><div><br />With a little inspection, I was able to identify the formatting applied to the required elements.<br /><br />Enter Google Chrome plus the <a href="https://chrome.google.com/webstore/detail/jsshell/kmgmkbicahmbceidoidjbkbpkfogaldh" target="_blank">jsshell </a>extension. Jsshell allows you to run jQuery on any page. Now isn't that somethin' :-).<br /><br />So after a few (debatable) minutes I came up with the following<br /><br /><br /></div><script src="https://gist.github.com/dalevross/009bac6b6e56bdb069979952be316066.js"></script><br />In other words<br /><br /><ol><li>For each of the six languages specified, find the <b>span </b>with an id &nbsp;equal to the language.</li><li>Find the<b> <i>first</i></b><i> </i><b>list </b>following the <b>parent </b>of the identified <b>span</b></li><li>For each <b>bold letter</b> in the list, assign the integer value of the <b>italicized </b>text which is a <b>sibling </b>of that letter to that letters index in that languages array.</li><ul><li>Example, for the English dictionary, <b>Q </b>and <b>Z </b>(<b>bold</b>) are <i>10 points (italicized). </i>The integer value of &nbsp;"10 points" is of course 10.</li></ul></ol><br /><br />The result,  <br /><br /><script src="https://gist.github.com/dalevross/8a1333672ecc3a55988e51e7237d9eaa.js"></script><div style="font-family: 'Times New Roman'; white-space: normal;"><b>Lines of code : 10</b></div>

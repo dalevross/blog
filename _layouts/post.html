@@ -6,6 +6,7 @@ twitter-image: bloggertojekkyl-t.png
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    {% assign sorted_tags = page.tags | sort %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -15,7 +16,11 @@ twitter-image: bloggertojekkyl-t.png
       {%- if page.author -%}
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
           itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+      • <span>{% for tag in sorted_tags %}
+        <a class="post-tag icofont-tag" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}</span>
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
