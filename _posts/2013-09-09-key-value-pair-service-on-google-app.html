@@ -1,0 +1,21 @@
+---
+layout: post
+title: Key Value Pair Service on Google App Engine
+date: '2013-09-09T06:26:00.000-07:00'
+author: Dale V. Ross
+tags:
+- cPickle
+- Python
+- Regular Expressions
+- zyzzyva dictionaries
+- JSON
+- msgpack
+- Google Chrome Extension
+- marshal
+- Google App Engine
+modified_time: '2019-12-14T18:45:01.208-08:00'
+blogger_id: tag:blogger.com,1999:blog-748479084389931429.post-7933157219608760758
+blogger_orig_url: https://blog.dalevross.com/2013/09/key-value-pair-service-on-google-app.html
+---
+
+I had the need to include in-game dictionaries for an online game I was enhancing through a <a href="http://tinyurl.com/free-tracker">Google Chrome Extension</a>.<br /><br />When I decided to look for a simple key value pair service to load the dictionaries, I assumed I'd find loads of examples or some stable implementation that I could leverage. I found one service that appeared to not have much support and a few examples which were not quite there.<br /><br />&nbsp;As I was busy with a few other things at the time, I mentioned <a href="https://developers.google.com/appengine/">Google App Engine</a> to the developer I was working with as a possible solution. I said, we might have a free solution if we manage to remain within the specified quotas. I hadn't conceptualized the flow, so I couldn't say whether or not that was possible. We needed to keep the price low (read zero) because the extension is free, and will always be.  When a window opened up I decided to go for it.<br /><br />First decision,<br /><br /><ol><li>Go with PHP as that is the language I've used most often</li><li>Go with Python to get more experience as I had done only a few basic example before.</li></ol><div>Easy choice, Python. Time to reduce the verbosity and get to the gold.</div><div><br /></div><div><h3>Step 1.</h3></div><div>Convert dictionaries to a static file that could be read quickly. I had a few failed attempts at getting good performance with</div><div><ul><li>JSON</li><li><a href="http://msgpack.org/" target="_blank">msgpack </a>- It claims to be like JSON but fast and small. It still didn't work so well for me.</li><li>marshal</li></ul><div>I then decided to try to implement cPickle which I'd read about before the other two but for some reason, I didn't try it.</div></div><div><br /></div><div><br /></div><script src="https://gist.github.com/dalevross/3ecf86294e69f0816a66b3c2f3639d6e.js"></script><br />To be continued.........     
