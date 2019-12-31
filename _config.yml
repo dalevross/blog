@@ -32,7 +32,17 @@ twitter_username: dalevross
 github_username:  dalevross
 instagram_username: dalevivianross
 facebook_username: dvross
-mastodon_username: dalevross
+mastodon: 
+ - username: dalevross
+   instance: fosstodon.org
+ - username: dalevross
+   instance: mastodon.social
+ - username: dalevross
+   instance: mas.to
+ - username: dalevross
+   instance: mastodon.technology
+ - username: dalevross
+   instance: qoto.org
 linkedin_username: dalevross
 pinterest_username: dalevross
 author: Dale Vivian Ross
