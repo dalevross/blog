@@ -22,7 +22,7 @@ title: The Code Room
 email: dalevross@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Dale is a software engineer with over 11 years of professional experience 
-  determined to overcome setback and solve a few hard problems.
+  determined to overcome setbacks and solve a few hard problems.
 baseurl: "/blog"
 production_url : http://dalevross.github.io.com/blog
 BASE_PATH : http://dalevross.com/blog
