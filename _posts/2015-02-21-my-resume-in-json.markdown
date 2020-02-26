@@ -23,10 +23,11 @@ So, here is my quick and fairly clean review of jsonresume.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moBs_GMdnEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+<br><br>
 
 **Edit 2020**
 
-I tend to share the [StackOverflow Theme](http://registry.jsonresume.org/dalevross?theme=stackoverflow) fairly regularly and moreso when the default theme is misbehaving.
+I tend to share the [StackOverflow Theme](http://registry.jsonresume.org/dalevross?theme=stackoverflow) fairly regularly and moreso when the default theme is misbehaving. It didn't exist at the time of the original post.
 
 Also,
 
