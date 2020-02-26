@@ -21,3 +21,15 @@ I decided to play around with Camtasia a little bit and figured this was a grea
 So, here is my quick and fairly clean review of jsonresume.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moBs_GMdnEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+**Edit 2020**
+
+I tend to share the [StackOverflow Theme](http://registry.jsonresume.org/dalevross?theme=stackoverflow) fairly regularly and moreso when the default theme is misbehaving.
+
+Also,
+
+Here is the JSON gist that currently supports what is seen on the front end.
+
+<script src="https://gist.github.com/dalevross/b84a41642d5db6aa6ad82a8ce325d5db.js"></script>
