@@ -27,6 +27,8 @@ So, here is my quick and fairly clean review of jsonresume.
 
 **Edit 2020**
 
+The service now uses a gist called resume.json at the same a github account with the same username that s provided at the registry URL. In my case this username is dalevross.
+
 I tend to share the [StackOverflow Theme](http://registry.jsonresume.org/dalevross?theme=stackoverflow) fairly regularly and moreso when the default theme is misbehaving. It didn't exist at the time of the original post.
 
 Also,
