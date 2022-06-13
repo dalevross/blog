@@ -24,10 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Dale is a software engineer with over 11 years of professional experience 
   determined to overcome setbacks and solve a few hard problems.
 baseurl: "/blog"
-production_url : http://dalevross.github.io.com/blog
-BASE_PATH : http://dalevross.com/blog
+production_url : http://dalevross.rosssquared.org/blog
+BASE_PATH : http://dalevross.rosssquared.org/blog
 
-url: "https://dalevross.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dalevross.rosssquared.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dalevross
 github_username:  dalevross
 instagram_username: dalevivianross
