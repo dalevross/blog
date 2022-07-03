@@ -1,0 +1,11 @@
+---
+layout: post
+title: To unfollow or not, that is the question.
+date: 2020-01-09 08:39 -0500
+---
+
+
+ sed -E 's/^"[[:digit:]]+","(\w+)"$/\1/g' candidate-hnh.csv | xargs t unfollow
+@dalevross is no longer following 144 users.
+
+Run `t follow @akirajm @allthingsd @Alpaccinos @angelicstevia @aots @AppDotNet @Armor_Guard @Autoswaprz @AYIGenius @barrygeorge80 @BeTTy_Butt @BigDataKC @biopsUK @brokerz_namc3 @bunzierepaz @camissa_cp @camross @CamzStylz @centre_court @cheddaworld @Christabel30 @ChristianHair71 @CollegePKmainst @coolmasquerade @curlvitldr @cybexin @DanaCalleja @DAndyPhotog @DavisRichied21 @DEBBIEGOODAZ @DeewanBanquet @DigicelStarsJA @digitaljam3 @DJL_13 @Donlal @doublejay57 @Duwi3 @eMedCommunity @eqgillpo @EyeTerra @FiWoProblems @FLAmendment4 @fullymobile @garfdix @GigCitySummit @godfather39 @googlevoice @GregCarmack @gruseom @gs2peace @HGuinup @HitchhikerLabs @iamTWiZ @instinllc @investorskit @invitemedia @iwhimapp @JamaicaChess @jeannewalcott @jermytvon @JimNixon147 @jjaiv @Jmanvybz @joel_dean @joinRED @joni_narcissism @jule_g12 @kandikayy @KeshavKumarTR @Kres_Chophouse @labrown21 @LattyV @LemonlineFeed @LG_2303 @liennej @LifeForPositive @LightRoy @ListenrApproved @LymenBooze @martin_tenke @marvinwhitfield @MedCityFountain @MedicalSalesCRM @messenger_plus @MinisterBleary @MissyBJam @mofia77 @MsLisaESmith @MundiPuraVida @Mystrybaby @NeighborsGrow @nepalipearl @Newyorkexotic @Nick_Grillo @No1court @NoraHinesi85 @objectmentor @OliverPurdicom @Pc_Wiz @PCWholesale @penmachine @PerranPryor @PijjinApp @PlayJamaica @PuraVidaBashers @queenrochross @racerkp @racqwils @ram1583 @ReaIWizKhaIilfa @reelsteel876 @ricardofuller26 @Rochellefoxy @RuxterInfo @sbennett_jm @SeatonAndersfrw @ServiceNoodle @sexy_barbie1983 @sexynikki4keeps @SFH4EVA @StartupMerch @stokes_07 @strengthsdocs @SullivanSolutns @Sultravibe @TaniaThorpe1 @tendo90 @thecloudcubed @TheMitchReview @THEREAL_TWINZ @ThinkSmartja @TiaandTamera @Tiffo115 @tkenny876 @TreverOffKey @Undroppable @UzilitySoftware @w3fools @wallywill89 @WebTVLiveOnline @WhitneyTrailNit @XiezzoForCards @Yr__HIGHNESS @ZyzzyvaApp` to follow again.

@@ -22,17 +22,27 @@ title: The Code Room
 email: dalevross@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Dale is a software engineer with over 11 years of professional experience 
-  determined to overcome setback and solve a few hard problems.
+  determined to overcome setbacks and solve a few hard problems.
 baseurl: "/blog"
-production_url : http://dalevross.github.io.com/blog
-BASE_PATH : http://dalevross.com/blog
+production_url : http://dalevross.rosssquared.org/blog
+BASE_PATH : http://dalevross.rosssquared.org/blog
 
-url: "https://dalevross.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dalevross.rosssquared.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dalevross
 github_username:  dalevross
 instagram_username: dalevivianross
 facebook_username: dvross
-mastodon_username: dalevross
+mastodon: 
+ - username: dalevross
+   instance: fosstodon.org
+ - username: dalevross
+   instance: mastodon.social
+ - username: dalevross
+   instance: mas.to
+ - username: dalevross
+   instance: mastodon.technology
+ - username: dalevross
+   instance: qoto.org
 linkedin_username: dalevross
 pinterest_username: dalevross
 author: Dale Vivian Ross
