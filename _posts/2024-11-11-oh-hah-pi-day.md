@@ -208,7 +208,7 @@ LIMIT 100
     contain: var(--tw-contain-size) var(--tw-contain-layout) var(--tw-contain-paint) var(--tw-contain-style);
 </style>
 
-[firstpost]: {% post_url 2013-08-16-pi-selovtup %}
+[firstpost]: {% post_url 2013-08-16-pi-lovin %}
 [charles]: https://en.wikipedia.org/wiki/Charles_Evans_Hughes_III
 
 
