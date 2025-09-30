@@ -56,4 +56,5 @@ So close to being 314. It made me think of my off by one birth record number EA 
 [wqs]: https://query.wikidata.org/
 [wikidata]: https://www.wikidata.org/wiki/Q4516349
 [rwp]: https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%BE%D0%B2,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87
-[gemval]: {{ site.baseUrl }}/images/313-Aleksandr_Mikhailovich_Chistlov.png
+[gemval]: {{ site.url }}/blog/images/313-Aleksandr_Mikhailovich_Chistlov.png
+
