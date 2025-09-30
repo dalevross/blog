@@ -15,7 +15,7 @@ was [Play snake in the URL address bar ](https://demian.ferrei.ro/snake/) which 
 
 I went over to LinkedIn and saw [David Neal's virtual card project](https://github.com/reverentgeek/reverentgeek-card) and decided to implement [my own](https://github.com/dalevross/dalevross-card)
 
-Bolstered by the fact that it wasn't too complex to implement the card and the knowledge that I have coding agents to assist where I fall short, I remembered an idea I had in the past to share recommendations. Within a few hours, I had more or less what I had in mind implemented. I borrowed the idea of using public gists from the [jsonresume](jsonresume.org) project and here is a look at how it works. The initial idea was to make it available on the web with themes to display just like jsonresume but I thought this was a neat variation to attempt.
+Bolstered by the fact that it wasn't too complex to implement the card and the knowledge that I have coding agents to assist where I fall short, I remembered an idea I had in the past to share recommendations. Within a few hours, I had more or less what I had in mind implemented. I borrowed the idea of using public gists from the [jsonresume](jsonresume.org) project. The initial idea was to make it available on the web with themes to display just like jsonresume but I thought this was a neat variation to attempt. Here is a look at how it works.
 
 ![Image][pubrecs]
 
@@ -24,5 +24,7 @@ This is a demo I did of it in action.
 <iframe width="538" height="314" src="https://www.youtube.com/embed/C-E5WqyPOms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The code is available [here](https://github.com/dalevross/recommendations) with a README that shows usage instructions.
+
+This, if used, would be primarily for techies to see what's been said about them or by them about others.
 
 [pubrecs]: {{ site.url }}/blog/images/og_pub_recs.png
