@@ -68,3 +68,9 @@ wikigemdev.rosssquared.org {
 I have my .NET app serving on port 5000.
 
 The app is very slow on some (most) queries and I have a timeout of 10s. But it works for some and for that I'm a relatively happy camper. So cratedb wasn't all I dreamed but I learned a few new things so it's a win.
+
+Just something I think about all the time.
+
+> Here is wisdom. Let him that hath understanding count the number of the beast: for it is the number of a man; and his number is Six hundred threescore and six.
+>
+> — Revelation 13:18 (KJV)
