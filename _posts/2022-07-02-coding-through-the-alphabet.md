@@ -3,14 +3,14 @@ layout: post
 title: Coding Through The Alphabet
 date: 2022-07-02 11:17 -0400
 tags:
-- Programming
-- Programming Languages
-- Coding
-- A to Z
+  - Programming
+  - Programming Languages
+  - Coding
+  - A to Z
 description: My commitment to code a basic program in 26 different languages
 comments: true
-image: ogpi.png
-twitter-image: ogpi.png
+image: image/ogpi.png
+twitter-image: image/ogpi.png
 ---
 
 I call myself a polyglot, which in programming terms means one

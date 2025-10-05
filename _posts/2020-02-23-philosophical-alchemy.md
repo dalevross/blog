@@ -3,15 +3,15 @@ layout: post
 title: Philosophical Alchemy
 date: 2020-02-23 02:14 -0500
 tags:
-- Philosophy
-- Philosophical Alchemy
-- Truth
-- John Howe
-- Alchemy
+  - Philosophy
+  - Philosophical Alchemy
+  - Truth
+  - John Howe
+  - Alchemy
 description: How can we construct truth.
 comments: true
-image: og_truth.png
-twitter-image: og_truth.png
+image: image/og_truth.png
+twitter-image: image/og_truth.png
 author: Dale Vivian Ross and John Howe
 ---
 
@@ -24,7 +24,6 @@ potentially be crucified again, whatever that means. John appeared extremely sma
 First we must discuss what truth is. Ultimately truth should be unchangeable. That means everything can be characterized as "TRUE or NOT TRUE". In a democracy people are constitutionally guaranteed respect for their own stupid opinions. Good and bad are determined
 by the unification of enough stupid opinions qualified to determine any issue.
 
-
 Paul the apostle to the Gentiles divided everything, Alles in creation as S and not S<sup>1</sup>. Paul assures every Christian that we as Christians struggle not against flesh and blood but against
 powers and principalities and wickedness in high places. Satan, the enemy of every man's soul prowls around like a roaring lion seeking someone to devour as the father of lies, deceit and hatefulness. Satan appeals to the vulnerability of man to be wicked, jealous, envious, covetous, murderous, conceited and stupid. QED.
 
@@ -35,4 +34,3 @@ Man can recognize his sinful nature and pray to God for change and his salvation
 GOD BLESS
 
 <sup>1</sup> John clarified that this means Seen and Not Seen
-

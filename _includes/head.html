@@ -3,10 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta content="573898403409167" property="fb:app_id" />
-  <meta
-    property="og:image"
-    content="{{ site.url }}/blog/images/{{ page.image }}"
-  />
+  <meta property="og:image" content="{{ site.url }}/blog/{{ page.image }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}" />
@@ -19,21 +16,7 @@
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
   <meta
     name="twitter:image"
-    content="{{ site.url }}/blog/images/{{ page.twitter-image }}"
-  />
-  <meta property="twitter:title" content="{{ page.title }}" />
-  {% if page.summary %}
-  <meta property="twitter:description" content="{{ page.summary }}" />
-  {% else %}
-  <meta property="twitter:description" content="{{ page.description }}" />
-  {% endif %}
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:site" content="@dalevross" />
-  <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="twitter:creator" content="@dalevross" />
-  <meta
-    property="twitter:image"
-    content="{{ site.url }}/blog/images/{{ page.twitter-image }}"
+    content="{{ site.url }}/blog/{{ page.twitter-image }}"
   />
   {%- seo -%} <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url
   }}"> {%- feed_meta -%} {%- if jekyll.environment == 'production' and

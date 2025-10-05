@@ -3,16 +3,16 @@ layout: post
 title: Dale Vivian Ross
 date: 2022-06-12 11:11 -0400
 tags:
-- Myself
-- Letter to Myself
-- Dale
-- Vivian
-- Ross
-- Dale Vivian Ross
+  - Myself
+  - Letter to Myself
+  - Dale
+  - Vivian
+  - Ross
+  - Dale Vivian Ross
 description: An acrostic poem I wrote as a letter to myself.
 comments: true
-image: ogpi.png
-twitter-image: ogpi.png
+image: image/ogpi.png
+twitter-image: image/ogpi.png
 ---
 
 **D**iscipline is all I need to get where I need to be.
@@ -35,7 +35,7 @@ twitter-image: ogpi.png
 
 **A** winner I am meant to be and that is who I am.
 
-**N**ow I'll see this challenge like an olden day exam. 
+**N**ow I'll see this challenge like an olden day exam.
 
 <br/><br/>
 

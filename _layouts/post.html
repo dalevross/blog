@@ -1,35 +1,51 @@
 ---
 layout: default
-image: bloggertojekkyl.png
-twitter-image: bloggertojekkyl-t.png
+image: image/bloggertojekkyl.png
+twitter-image: image/bloggertojekkyl-t.png
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+<article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
   <header class="post-header">
     {% assign sorted_tags = page.tags | sort %}
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }}
+    </h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+      <time
+        class="dt-published"
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+      >
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+        -%} {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-          itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
-      • <span>{% for tag in sorted_tags %}
-        <a class="post-tag icofont-tag" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}</span>
+      {%- if page.author -%} •
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
+        ><span class="p-author h-card" itemprop="name"
+          >{{ page.author }}</span
+        ></span
+      >
+      {%- endif -%} •
+      <span
+        >{% for tag in sorted_tags %}
+        <a
+          class="post-tag icofont-tag"
+          href="{{ site.baseurl }}/tags/#{{ tag | slugify }}"
+          >{{ tag }}</a
+        >
+        {% endfor %}</span
+      >
     </p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
-  {%- if site.disqus.shortname -%}
-  {%- include disqus_comments.html -%}
-  {%- endif -%}
+  {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%-
+  endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

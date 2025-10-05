@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "My resume in JSON"
-date:   2015-02-21 12:23:00 -0500
+title: "My resume in JSON"
+date: 2015-02-21 12:23:00 -0500
 categories: jsonresume
 description: A few days ago I decided to redo my resume. I decided to head over to hacker news.
 comments: true
-image: jsonresume.png
-twitter-image: jsonresume-t.png
+image: image/jsonresume.png
+twitter-image: image/jsonresume-t.png
 tags: resume hacker json javascript
 ---
 
@@ -21,7 +21,6 @@ I decided to play around with Camtasia a little bit and figured this was a grea
 So, here is my quick and fairly clean review of jsonresume.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moBs_GMdnEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 <br><br>
 

@@ -3,14 +3,14 @@ layout: post
 title: Oh Hah Pi Day!
 date: 2024-11-11 2:01 -0500
 tags:
-- Wikipedia Query
-- Pi
-- Pi Day
-- "1915"
+  - Wikipedia Query
+  - Pi
+  - Pi Day
+  - "1915"
 description: Querying Wikipedia like a bawse!
 comments: true
-image: ogpi.png
-twitter-image: ogpi.png
+image: image/ogpi.png
+twitter-image: image/ogpi.png
 published: true
 ---
 
@@ -45,8 +45,8 @@ This wikidata entry for this is linked [here][wikidata]. I searched google for t
 Below is the Ordinal computation for the name
 ![Image][gemval]
 
-
 # 313!
+
 The Ordinal cipher is the most basic cipher where a = 1, b = 2, c= 3....z = 26.
 
 So close to being 314. It made me think of my off by one birth record number EA 313 for someone who developed a love for pi.
@@ -57,4 +57,3 @@ So close to being 314. It made me think of my off by one birth record number EA 
 [wikidata]: https://www.wikidata.org/wiki/Q4516349
 [rwp]: https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%BE%D0%B2,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87
 [gemval]: {{ site.url }}/blog/images/313-Aleksandr_Mikhailovich_Chistlov.png
-

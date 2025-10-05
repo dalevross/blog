@@ -3,15 +3,15 @@ layout: post
 title: Jaden Christian Ross
 date: 2020-03-07 01:27 -0500
 tags:
-- Son
-- Jaden
-- Ross
-- Jaden Christian Ross
-- Conception
+  - Son
+  - Jaden
+  - Ross
+  - Jaden Christian Ross
+  - Conception
 description: An acrostic poem I wrote for my son I never met but will always love.
 comments: true
-image: og_jaden.png
-twitter-image: og_jaden.png
+image: image/og_jaden.png
+twitter-image: image/og_jaden.png
 ---
 
 **J**aden, we really wish you were still here
@@ -24,7 +24,6 @@ twitter-image: og_jaden.png
 
 **N**ow we'll only have lingering thoughts of you son.
 <br/><br/>
-
 
 **C**herishing the idea of seeing your first run.
 
