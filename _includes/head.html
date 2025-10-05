@@ -18,6 +18,21 @@
     name="twitter:image"
     content="{{ site.url }}/blog/{{ page.twitter-image }}"
   />
+
+  <meta property="twitter:title" content="{{ page.title }}" />
+  {% if page.summary %}
+  <meta property="twitter:description" content="{{ page.summary }}" />
+  {% else %}
+  <meta property="twitter:description" content="{{ page.description }}" />
+  {% endif %}
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:site" content="@dalevross" />
+  <meta property="twitter:creator" content="@dalevross" />
+  <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  <meta
+    property="twitter:image"
+    content="{{ site.url }}/blog/{{ page.twitter-image }}"
+  />
   {%- seo -%} <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url
   }}"> {%- feed_meta -%} {%- if jekyll.environment == 'production' and
   site.google_analytics -%} {%- include google-analytics.html -%} {%- endif -%}
