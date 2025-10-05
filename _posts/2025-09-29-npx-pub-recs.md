@@ -5,8 +5,8 @@ date: 2025-09-29 21:29:00 -0400
 categories: npx
 description: An npm package to show off recommendations.
 comments: true
-image: image/og_pub_recs.png
-twitter-image: image/og_pub_recs.png
+image: images/og_pub_recs.png
+twitter-image: images/og_pub_recs.png
 tags: ["recommendations", "JSON", "npm package", "npx pub-recs"]
 ---
 

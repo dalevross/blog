@@ -10,8 +10,8 @@ tags:
   - Alchemy
 description: How can we construct truth.
 comments: true
-image: image/og_truth.png
-twitter-image: image/og_truth.png
+image: images/og_truth.png
+twitter-image: images/og_truth.png
 author: Dale Vivian Ross and John Howe
 ---
 

@@ -4,8 +4,8 @@ title: Competing vs me
 date: 2020-01-09 00:52 -0500
 description: Who is Dale Vivian Ross, what is my purpose?
 comments: true
-image: image/oghitdalimit.png
-twitter-image: image/oghitdalimit.png
+image: images/oghitdalimit.png
+twitter-image: images/oghitdalimit.png
 ---
 
 Here's to hoping that this captures exactly what I int

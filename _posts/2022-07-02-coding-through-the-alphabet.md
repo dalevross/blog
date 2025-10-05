@@ -9,8 +9,8 @@ tags:
   - A to Z
 description: My commitment to code a basic program in 26 different languages
 comments: true
-image: image/ogpi.png
-twitter-image: image/ogpi.png
+image: images/ogpi.png
+twitter-image: images/ogpi.png
 ---
 
 I call myself a polyglot, which in programming terms means one

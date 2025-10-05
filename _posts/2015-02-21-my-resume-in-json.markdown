@@ -5,8 +5,8 @@ date: 2015-02-21 12:23:00 -0500
 categories: jsonresume
 description: A few days ago I decided to redo my resume. I decided to head over to hacker news.
 comments: true
-image: image/jsonresume.png
-twitter-image: image/jsonresume-t.png
+image: images/jsonresume.png
+twitter-image: images/jsonresume-t.png
 tags: resume hacker json javascript
 ---
 

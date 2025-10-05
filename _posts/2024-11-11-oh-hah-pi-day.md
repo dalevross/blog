@@ -9,8 +9,8 @@ tags:
   - "1915"
 description: Querying Wikipedia like a bawse!
 comments: true
-image: image/ogpi.png
-twitter-image: image/ogpi.png
+image: images/ogpi.png
+twitter-image: images/ogpi.png
 published: true
 ---
 

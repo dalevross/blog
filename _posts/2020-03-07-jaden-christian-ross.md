@@ -10,8 +10,8 @@ tags:
   - Conception
 description: An acrostic poem I wrote for my son I never met but will always love.
 comments: true
-image: image/og_jaden.png
-twitter-image: image/og_jaden.png
+image: images/og_jaden.png
+twitter-image: images/og_jaden.png
 ---
 
 **J**aden, we really wish you were still here

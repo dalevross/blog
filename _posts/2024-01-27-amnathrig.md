@@ -10,8 +10,8 @@ tags:
   - BrainStory
 description: The primary app I intend to use to leave my dent
 comments: true
-image: image/og_amnathrig.png
-twitter-image: image/og_amnathrig.png
+image: images/og_amnathrig.png
+twitter-image: images/og_amnathrig.png
 ---
 
 Throughout my life I've felt a calling to leave a significant mark on this planet. The path I've taken has however tried to dampen my spirit, leaving me to believe I will remain ordinary when I'm meant to

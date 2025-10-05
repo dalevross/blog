@@ -9,8 +9,8 @@ tags:
   - Black Women
 description: An acrostic poem I wrote for my mom in the midst of a valley.
 comments: true
-image: image/strong_black_woman.png
-twitter-image: image/strong_black_woman.png
+image: images/strong_black_woman.png
+twitter-image: images/strong_black_woman.png
 ---
 
 **A**dmittedly I missed it all this time

@@ -7,8 +7,8 @@ tags:
   - unfollow
 description: I've hit the limit, so I've got some work to do.
 comments: true
-image: image/oghitdalimit.png
-twitter-image: image/oghitdalimit.png
+image: images/oghitdalimit.png
+twitter-image: images/oghitdalimit.png
 ---
 
 Over the years, I've used twitter in a way it was possibly not meant to be used. I didn't really dwell on my follower count too much. I however had/have an insatiable desire to know all the things, almost to an omniscient level. So I followed a looot of people to keep my finger on the pulse of the world. If twitter suggested it, I obliged.

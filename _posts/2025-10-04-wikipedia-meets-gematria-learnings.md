@@ -4,8 +4,8 @@ title: "When Wikipedia meets gematria, plus learnings"
 date: 2025-10-04 08:50:00 -0400
 description: A Wikipedia Gematria Value search tool, what I learned.
 comments: true
-image: image/og_wikigem.png
-twitter-image: image/og_wikigem.png
+image: images/og_wikigem.png
+twitter-image: images/og_wikigem.png
 tags: ["wikipedia", "gematria", "caddy", "cratedb", "docker"]
 ---
 

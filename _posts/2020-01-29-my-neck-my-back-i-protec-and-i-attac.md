@@ -9,8 +9,8 @@ tags:
   - Chiropractor
 description: I discuss the Chiropractors I've been using and also a little about my workout plans.
 comments: true
-image: image/og_back.png
-twitter-image: image/og_back.png
+image: images/og_back.png
+twitter-image: images/og_back.png
 ---
 
 I'm in pain. It's not the worst, and I was still able to work out at the [UFC Gym in Springfield][ufcgym]. My worst pain was in 2017 when I could barely move. Buttoning my shirt was almost impossible. Showering, Ai Caramba.

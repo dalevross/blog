@@ -5,8 +5,8 @@ date: 2019-12-15 18:30:32 -0500
 categories: jekyll migration
 description: I'm migrating my blog to Jekyll
 comments: true
-image: image/bloggertojekkyl.png
-twitter-image: image/bloggertojekkyl-t.png
+image: images/bloggertojekkyl.png
+twitter-image: images/bloggertojekkyl-t.png
 ---
 
 I tweeted this a few weeks ago, but I generally get low engagement on tweets without the use of certain hashtags, and or tagging someone like <a href="https://twitter.com/shanselman">@shanselman</a>

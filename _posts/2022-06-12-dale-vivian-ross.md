@@ -11,8 +11,8 @@ tags:
   - Dale Vivian Ross
 description: An acrostic poem I wrote as a letter to myself.
 comments: true
-image: image/ogpi.png
-twitter-image: image/ogpi.png
+image: images/ogpi.png
+twitter-image: images/ogpi.png
 ---
 
 **D**iscipline is all I need to get where I need to be.
