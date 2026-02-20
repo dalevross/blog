@@ -69,4 +69,4 @@ END fibonacci.
 Local Testing Screenshot
 ![Image][screenshot]
 
-[screenshot]: {{ site.url }}/blog/images/modula2.png
+[screenshot]: {{ site.url }}/blog/images/modula-2.png
