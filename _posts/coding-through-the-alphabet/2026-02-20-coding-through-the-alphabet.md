@@ -26,7 +26,7 @@ Each application prints the first 10 numbers of the Fibonacci sequence:
 
 Below you'll find links to each individual post, where you can see the code and details for each language:
 
-{% assign langs = site.posts | where_exp: "post", "post.categories contains 'coding-through-the-alphabet'" %}
+{% assign langs = site.posts | where_exp: "post", "post.categories contains 'coding-through-the-alphabet'" | sort: "title" %}
 
 <ul>
 {% for post in langs %}
