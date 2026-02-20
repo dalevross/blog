@@ -30,3 +30,7 @@ Below you'll find links to each individual post, where you can see the code and 
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+
+I will add screenshot from testing this locally throughout the upcoming week.
+
+Note: I had this idea in mind for a while and with the help of Github Copilot I was able to bring it to life. What a time to be alive.
