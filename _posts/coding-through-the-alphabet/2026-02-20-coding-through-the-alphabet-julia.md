@@ -21,7 +21,7 @@ Julia is a high-level, high-performance, dynamic programming language well-suite
 
 **Prerequisites:** Julia
 
-- Ubuntu/Debian: `sudo apt install julia`
+- Ubuntu/Debian: `sudo apt install julia` or `curl -fsSL https://install.julialang.org | sh`
 - macOS: `brew install julia`
 - All platforms: https://julialang.org/downloads/
 
@@ -54,3 +54,8 @@ for _ in 1:10
     a, b = b, a + b
 end
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/julia.png

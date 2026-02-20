@@ -52,3 +52,8 @@ for _ = 1, 10 do
     a, b = b, a + b
 end
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/lua.png

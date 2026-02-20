@@ -57,3 +57,8 @@ end
 
 Fibonacci.run(10)
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/elixir.png

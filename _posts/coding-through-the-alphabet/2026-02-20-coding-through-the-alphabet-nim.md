@@ -56,3 +56,8 @@ for _ in 0 ..< 10:
     a = b
     b = c
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/nim.png

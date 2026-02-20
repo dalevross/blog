@@ -56,3 +56,8 @@ int main(void) {
     return 0;
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/c.png

@@ -34,6 +34,6 @@ Below you'll find links to each individual post, where you can see the code and 
 {% endfor %}
 </ul>
 
-I will add screenshot from testing this locally throughout the upcoming week.
+All screenshots were from test runs in WSL2 on Windows.
 
 Note: I had this idea in mind for a while and with the help of Github Copilot I was able to bring it to life. What a time to be alive.

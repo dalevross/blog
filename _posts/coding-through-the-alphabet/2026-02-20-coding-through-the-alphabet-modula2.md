@@ -65,3 +65,8 @@ BEGIN
     END;
 END fibonacci.
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/modula2.png

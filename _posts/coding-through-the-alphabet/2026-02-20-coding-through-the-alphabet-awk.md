@@ -55,3 +55,8 @@ BEGIN {
     }
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/awk.png

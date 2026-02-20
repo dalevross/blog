@@ -56,3 +56,8 @@ uiua run fibonacci.ua
 # Starting from 1 and 0, the 10 collected values are the Fibonacci sequence
 ≡&p ⍥⊡+10 1 0
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/uiua.png

@@ -55,3 +55,8 @@ for (let i = 0; i < 10; i++) {
   [a, b] = [b, a + b];
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/typescript.png

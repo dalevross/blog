@@ -55,3 +55,8 @@ for (i = 0; i < 10; i++) {
     b = c;
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/yorick.png

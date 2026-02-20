@@ -59,3 +59,8 @@ func main() {
 	}
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/go.png

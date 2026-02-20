@@ -55,3 +55,8 @@ for i in {1..10}; do
     b=$c
 done
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/zsh.png

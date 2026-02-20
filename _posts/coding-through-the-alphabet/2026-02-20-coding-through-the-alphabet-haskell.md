@@ -53,3 +53,8 @@ fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
 main :: IO ()
 main = mapM_ print (take 10 fibs)
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/haskell.png

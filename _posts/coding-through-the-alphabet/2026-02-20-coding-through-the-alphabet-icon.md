@@ -57,3 +57,8 @@ procedure main()
     }
 end
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/icon.png

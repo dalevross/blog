@@ -56,3 +56,8 @@ repeat(10) {
     b = c
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/kotlin.png

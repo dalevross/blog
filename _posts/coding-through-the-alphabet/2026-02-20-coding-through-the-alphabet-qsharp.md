@@ -63,3 +63,8 @@ operation Main() : Int[] {
     return results;
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/qsharp.png

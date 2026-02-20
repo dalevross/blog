@@ -53,3 +53,8 @@ for _ in range(10):
     print(a)
     a, b = b, a + b
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/python.png

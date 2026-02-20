@@ -57,3 +57,8 @@ object fibonacci extends App {
     }
 }
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/scala.png

@@ -76,3 +76,8 @@ xsltproc fibonacci.xsl input.xml
 
 </xsl:stylesheet>
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/xslt.png

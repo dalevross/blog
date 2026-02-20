@@ -54,3 +54,8 @@ for i in $(seq 1 10); do
     b=$c
 done
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/bash.png

@@ -53,3 +53,8 @@ a, b = 0, 1
     a, b = b, a + b
 end
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/ruby.png

@@ -56,3 +56,8 @@ let () =
     b := c
   done
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/ocaml.png

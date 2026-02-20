@@ -54,3 +54,8 @@ for _ in 1 .. 10 do
     a <- b
     b <- c
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/fsharp.png

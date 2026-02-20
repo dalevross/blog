@@ -61,3 +61,8 @@ Module Program
     End Sub
 End Module
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/visualbasic.png

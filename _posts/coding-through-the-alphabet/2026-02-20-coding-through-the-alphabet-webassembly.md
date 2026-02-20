@@ -70,3 +70,8 @@ node run.js
   )
 )
 ```
+
+Local Testing Screenshot
+![Image][screenshot]
+
+[screenshot]: {{ site.url }}/blog/images/webassembly.png
