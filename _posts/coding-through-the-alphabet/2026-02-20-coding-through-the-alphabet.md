@@ -30,7 +30,7 @@ Below you'll find links to each individual post, where you can see the code and 
 
 <ul>
 {% for post in langs %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
