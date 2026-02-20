@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Q# as part of the Coding Through The Alphabet series.
 ---
 
 Q# is a domain-specific programming language from Microsoft used for expressing quantum algorithms. It also supports classical computation, as demonstrated here.

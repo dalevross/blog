@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in OCaml as part of the Coding Through The Alphabet series.
 ---
 
 OCaml is a general-purpose, multi-paradigm programming language that extends the ML language with object-oriented features. It emphasizes safety and expressiveness.

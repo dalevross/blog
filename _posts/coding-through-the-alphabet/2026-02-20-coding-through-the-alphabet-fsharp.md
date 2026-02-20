@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in F# as part of the Coding Through The Alphabet series.
 ---
 
 F# is a functional-first, general-purpose, strongly typed programming language from Microsoft that runs on the .NET platform.

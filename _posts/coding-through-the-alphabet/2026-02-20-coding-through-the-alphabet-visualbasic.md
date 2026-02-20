@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Visual Basic as part of the Coding Through The Alphabet series.
 ---
 
 Visual Basic is a multi-paradigm, object-oriented programming language from Microsoft. Visual Basic .NET runs on the .NET platform and retains the readable, English-like syntax of classic Visual Basic.

@@ -12,6 +12,8 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Python as part of the Coding Through The Alphabet series.
+
 ---
 
 Python is a high-level, general-purpose programming language known for its clean syntax and readability. It is one of the most widely used languages in the world.

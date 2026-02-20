@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Julia as part of the Coding Through The Alphabet series.
 ---
 
 Julia is a high-level, high-performance, dynamic programming language well-suited to numerical analysis and computational science.

@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in D as part of the Coding Through The Alphabet series.
 ---
 
 D is a systems programming language with C-like syntax, combining the power of C with modern language features such as garbage collection and strong type safety.

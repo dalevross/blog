@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in C as part of the Coding Through The Alphabet series.
 ---
 
 C is a general-purpose, procedural programming language. It is one of the most widely used languages in systems programming.

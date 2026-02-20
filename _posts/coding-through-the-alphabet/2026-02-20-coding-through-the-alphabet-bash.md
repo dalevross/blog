@@ -12,6 +12,8 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Bash as part of the Coding Through The Alphabet series.
+
 ---
 
 Bash (Bourne Again SHell) is the default shell and scripting language on most Linux distributions and macOS.

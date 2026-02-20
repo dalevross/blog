@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Zsh as part of the Coding Through The Alphabet series.
 ---
 
 Zsh is a Unix shell and scripting language that extends Bourne shell with many improvements. It is the default shell on macOS and is widely used on Linux.

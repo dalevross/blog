@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Yorick as part of the Coding Through The Alphabet series.
 ---
 
 Yorick is an interpreted programming language for scientific computing, developed at Lawrence Livermore National Laboratory. It is particularly strong at array operations and numerical computation.

@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Modula-2 as part of the Coding Through The Alphabet series.
 ---
 
 Modula-2 is a structured, procedural programming language designed by Niklaus Wirth as the successor to Pascal. It introduced modules as the main unit of encapsulation.

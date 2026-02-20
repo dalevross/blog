@@ -12,6 +12,8 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in TypeScript as part of the Coding Through The Alphabet series.
+
 ---
 
 TypeScript is a strongly typed programming language that builds on JavaScript. It is developed and maintained by Microsoft and compiles to plain JavaScript.

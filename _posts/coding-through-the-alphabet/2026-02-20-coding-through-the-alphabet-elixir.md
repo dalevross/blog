@@ -12,6 +12,8 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Elixir as part of the Coding Through The Alphabet series.
+
 ---
 
 Elixir is a dynamic, functional language built on the Erlang VM. It is designed for building scalable and maintainable applications.

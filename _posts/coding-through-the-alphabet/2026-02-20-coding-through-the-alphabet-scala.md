@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Scala as part of the Coding Through The Alphabet series.
 ---
 
 Scala is a strong statically typed general-purpose programming language that supports both object-oriented and functional programming. It runs on the JVM.

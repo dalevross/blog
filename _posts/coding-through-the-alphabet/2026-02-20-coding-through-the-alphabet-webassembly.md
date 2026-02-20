@@ -13,6 +13,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in WebAssembly as part of the Coding Through The Alphabet series.
 ---
 
 WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine. The human-readable text format (WAT) is used here. The `fib` function is compiled to `.wasm` and called from Node.js.

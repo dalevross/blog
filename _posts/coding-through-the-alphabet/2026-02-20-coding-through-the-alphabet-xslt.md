@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in XSLT as part of the Coding Through The Alphabet series.
 ---
 
 XSLT is a language for transforming XML documents. It is Turing-complete and capable of general computation through recursive templates, as demonstrated in this Fibonacci implementation.

@@ -12,9 +12,10 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Haskell as part of the Coding Through The Alphabet series.
 ---
-
 Haskell is a purely functional programming language with strong static typing and lazy evaluation. The Fibonacci sequence is expressed here using an infinite lazy list.
+
 
 ## How to test
 

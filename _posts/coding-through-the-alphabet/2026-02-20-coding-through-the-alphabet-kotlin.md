@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Kotlin as part of the Coding Through The Alphabet series.
 ---
 
 Kotlin is a modern, statically typed programming language from JetBrains that targets the JVM, Android, JavaScript, and native platforms.

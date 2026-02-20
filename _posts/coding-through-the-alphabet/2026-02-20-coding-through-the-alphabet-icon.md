@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Icon as part of the Coding Through The Alphabet series.
 ---
 
 Icon is a high-level, general-purpose programming language with goal-directed evaluation and built-in support for strings and lists. It was developed at the University of Arizona.

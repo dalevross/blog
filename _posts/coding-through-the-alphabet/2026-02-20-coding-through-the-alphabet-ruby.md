@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Ruby as part of the Coding Through The Alphabet series.
 ---
 
 Ruby is a dynamic, open source programming language focused on simplicity and productivity. It is the language that powers the Ruby on Rails web framework.

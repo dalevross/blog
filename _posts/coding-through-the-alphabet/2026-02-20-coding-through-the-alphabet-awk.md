@@ -12,6 +12,8 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in AWK as part of the Coding Through The Alphabet series.
+
 ---
 
 AWK is a domain-specific language designed for text processing. It is available on all Unix-like systems.

@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Go as part of the Coding Through The Alphabet series.
 ---
 
 Go (also known as Golang) is an open-source programming language created by Google. It is statically typed, compiled, and designed for simplicity and efficiency.

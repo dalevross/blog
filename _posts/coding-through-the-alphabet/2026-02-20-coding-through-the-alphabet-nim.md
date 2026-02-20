@@ -12,6 +12,8 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Nim as part of the Coding Through The Alphabet series.
+
 ---
 
 Nim is a statically typed, compiled systems programming language that combines successful concepts from Python, Ada, and Modula.

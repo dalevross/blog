@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+description: Implementation of the Fibonacci sequence in Lua as part of the Coding Through The Alphabet series.
 ---
 
 Lua is a lightweight, high-level, multi-paradigm scripting language designed primarily for embedded use in applications. It is widely used in game development.
