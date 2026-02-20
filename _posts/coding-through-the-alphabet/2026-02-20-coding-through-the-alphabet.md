@@ -11,6 +11,9 @@ tags:
   - Coding
   - A to Z
 description: My attempt to write a Fibonacci sequence application in 26 different programming languages — one per letter of the alphabet.
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Welcome to "Coding Through The Alphabet"! This project is my attempt to write a Fibonacci sequence application in 26 different programming languages — one per letter of the alphabet.

@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Uiua (pronounced "wee-wah") is a stack-based array programming language inspired by APL and BQN. It uses a unique set of Unicode glyphs for its built-in operations and is designed for concise, expressive array manipulation.
@@ -30,6 +33,7 @@ uiua run fibonacci.ua
 ```
 
 **Expected output:**
+
 ```
 0
 1

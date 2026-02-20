@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Q# is a domain-specific programming language from Microsoft used for expressing quantum algorithms. It also supports classical computation, as demonstrated here.
@@ -26,6 +29,7 @@ python3 run.py
 ```
 
 **Expected output:**
+
 ```
 0
 1

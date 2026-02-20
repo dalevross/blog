@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Kotlin is a modern, statically typed programming language from JetBrains that targets the JVM, Android, JavaScript, and native platforms.
@@ -26,6 +29,7 @@ kotlinc -script fibonacci.kts
 ```
 
 **Expected output:**
+
 ```
 0
 1

@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Yorick is an interpreted programming language for scientific computing, developed at Lawrence Livermore National Laboratory. It is particularly strong at array operations and numerical computation.
@@ -25,6 +28,7 @@ yorick -batch fibonacci.i
 ```
 
 **Expected output:**
+
 ```
 0
 1

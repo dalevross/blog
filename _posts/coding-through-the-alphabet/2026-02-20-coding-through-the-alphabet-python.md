@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Python is a high-level, general-purpose programming language known for its clean syntax and readability. It is one of the most widely used languages in the world.
@@ -26,6 +29,7 @@ python3 fibonacci.py
 ```
 
 **Expected output:**
+
 ```
 0
 1

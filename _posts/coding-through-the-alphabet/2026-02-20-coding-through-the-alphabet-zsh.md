@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Zsh is a Unix shell and scripting language that extends Bourne shell with many improvements. It is the default shell on macOS and is widely used on Linux.
@@ -24,6 +27,7 @@ zsh fibonacci.zsh
 ```
 
 **Expected output:**
+
 ```
 0
 1

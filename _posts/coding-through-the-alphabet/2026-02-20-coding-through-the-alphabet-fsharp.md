@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+---
 
 F# is a functional-first, general-purpose, strongly typed programming language from Microsoft that runs on the .NET platform.
 
@@ -28,6 +29,7 @@ dotnet fsi fibonacci.fsx
 ```
 
 **Expected output:**
+
 ```
 0
 1

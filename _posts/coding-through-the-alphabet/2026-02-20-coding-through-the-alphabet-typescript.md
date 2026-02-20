@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 TypeScript is a strongly typed programming language that builds on JavaScript. It is developed and maintained by Microsoft and compiles to plain JavaScript.
@@ -25,6 +28,7 @@ tsc fibonacci.ts && node fibonacci.js
 ```
 
 **Expected output:**
+
 ```
 0
 1
@@ -45,7 +49,7 @@ let a: number = 0;
 let b: number = 1;
 
 for (let i = 0; i < 10; i++) {
-    console.log(a);
-    [a, b] = [b, a + b];
+  console.log(a);
+  [a, b] = [b, a + b];
 }
 ```

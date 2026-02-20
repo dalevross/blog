@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Nim is a statically typed, compiled systems programming language that combines successful concepts from Python, Ada, and Modula.
@@ -26,6 +29,7 @@ nim c -r fibonacci.nim
 ```
 
 **Expected output:**
+
 ```
 0
 1

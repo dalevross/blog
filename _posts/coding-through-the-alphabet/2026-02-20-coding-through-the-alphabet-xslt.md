@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 XSLT is a language for transforming XML documents. It is Turing-complete and capable of general computation through recursive templates, as demonstrated in this Fibonacci implementation.
@@ -25,6 +28,7 @@ xsltproc fibonacci.xsl input.xml
 ```
 
 **Expected output:**
+
 ```
 0
 1

@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+---
 
 Bash (Bourne Again SHell) is the default shell and scripting language on most Linux distributions and macOS.
 
@@ -24,6 +25,7 @@ bash fibonacci.sh
 ```
 
 **Expected output:**
+
 ```
 0
 1

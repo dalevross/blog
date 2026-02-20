@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Lua is a lightweight, high-level, multi-paradigm scripting language designed primarily for embedded use in applications. It is widely used in game development.
@@ -25,6 +28,7 @@ lua fibonacci.lua
 ```
 
 **Expected output:**
+
 ```
 0
 1

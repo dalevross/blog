@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+---
 
 Elixir is a dynamic, functional language built on the Erlang VM. It is designed for building scalable and maintainable applications.
 
@@ -27,6 +28,7 @@ elixir fibonacci.exs
 ```
 
 **Expected output:**
+
 ```
 0
 1

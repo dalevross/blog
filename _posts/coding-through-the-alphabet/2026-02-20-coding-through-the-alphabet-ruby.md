@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Ruby is a dynamic, open source programming language focused on simplicity and productivity. It is the language that powers the Ruby on Rails web framework.
@@ -26,6 +29,7 @@ ruby fibonacci.rb
 ```
 
 **Expected output:**
+
 ```
 0
 1

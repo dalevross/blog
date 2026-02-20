@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+---
 
 Haskell is a purely functional programming language with strong static typing and lazy evaluation. The Fibonacci sequence is expressed here using an infinite lazy list.
 
@@ -28,6 +29,7 @@ runghc fibonacci.hs
 ```
 
 **Expected output:**
+
 ```
 0
 1

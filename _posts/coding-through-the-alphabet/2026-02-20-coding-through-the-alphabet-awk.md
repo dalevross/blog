@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+---
 
 AWK is a domain-specific language designed for text processing. It is available on all Unix-like systems.
 
@@ -24,6 +25,7 @@ awk -f fibonacci.awk
 ```
 
 **Expected output:**
+
 ```
 0
 1

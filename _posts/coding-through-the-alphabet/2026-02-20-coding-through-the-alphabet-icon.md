@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Icon is a high-level, general-purpose programming language with goal-directed evaluation and built-in support for strings and lists. It was developed at the University of Arizona.
@@ -25,6 +28,7 @@ icont -s fibonacci.icn && ./fibonacci
 ```
 
 **Expected output:**
+
 ```
 0
 1

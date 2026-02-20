@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Visual Basic is a multi-paradigm, object-oriented programming language from Microsoft. Visual Basic .NET runs on the .NET platform and retains the readable, English-like syntax of classic Visual Basic.
@@ -26,6 +29,7 @@ dotnet run
 ```
 
 **Expected output:**
+
 ```
 0
 1

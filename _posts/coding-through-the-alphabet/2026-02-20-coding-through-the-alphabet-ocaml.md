@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 OCaml is a general-purpose, multi-paradigm programming language that extends the ML language with object-oriented features. It emphasizes safety and expressiveness.
@@ -26,6 +29,7 @@ ocaml fibonacci.ml
 ```
 
 **Expected output:**
+
 ```
 0
 1

@@ -9,6 +9,9 @@ tags:
   - Fibonacci
   - Coding Through The Alphabet
   - Programming Languages
+comments: true
+image: images/og_codingalphabet.png
+twitter-image: images/og_codingalphabet.png
 ---
 
 Scala is a strong statically typed general-purpose programming language that supports both object-oriented and functional programming. It runs on the JVM.
@@ -26,6 +29,7 @@ scalac fibonacci.scala -d fibonacci.jar && scala -cp fibonacci.jar fibonacci
 ```
 
 **Expected output:**
+
 ```
 0
 1

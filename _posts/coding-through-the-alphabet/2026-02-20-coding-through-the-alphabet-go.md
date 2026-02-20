@@ -12,6 +12,7 @@ tags:
 comments: true
 image: images/og_codingalphabet.png
 twitter-image: images/og_codingalphabet.png
+---
 
 Go (also known as Golang) is an open-source programming language created by Google. It is statically typed, compiled, and designed for simplicity and efficiency.
 
@@ -28,6 +29,7 @@ go run fibonacci.go
 ```
 
 **Expected output:**
+
 ```
 0
 1
