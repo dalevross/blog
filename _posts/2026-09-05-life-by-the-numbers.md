@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 00:59:45 -0400
+date: 2026-09-05 04:00:05 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -10,19 +10,32 @@ tags: ["numerology", "gematria", "life-by-the-numbers"]
 
 ## Age
 
-I am 41 years, 11 months, 2 weeks and 4 days old today.
+I am <span id="ageText">41 years, 11 months, 2 weeks and 4 days</span> old today.
 
 It's been <span id="sinceLastText">11 months, 2 weeks and 4 days</span> since my last birthday (September 18, 2025), and <span id="untilNextText">1 week and 6 days</span> until my next one (September 18, 2026).
 
-<label><input type="checkbox" id="includeEndDateCheckbox" onchange="toggleEndDateSpan()"> Include end date in span</label>
+<div>
+  <label><input type="checkbox" class="unitCheckbox" data-unit="years" checked onchange="updateDurations()"> Years</label>
+  <label><input type="checkbox" class="unitCheckbox" data-unit="months" checked onchange="updateDurations()"> Months</label>
+  <label><input type="checkbox" class="unitCheckbox" data-unit="weeks" checked onchange="updateDurations()"> Weeks</label>
+  <label><input type="checkbox" class="unitCheckbox" data-unit="days" checked onchange="updateDurations()"> Days</label>
+</div>
+<label><input type="checkbox" id="includeEndDateCheckbox" onchange="updateDurations()"> Include end date in span</label>
 {% raw %}
 <script>
-const spanData = {"sinceLast": {"exclusive": "11 months, 2 weeks and 4 days", "inclusive": "11 months, 2 weeks and 5 days"}, "untilNext": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}};
-function toggleEndDateSpan() {
-  const checked = document.getElementById('includeEndDateCheckbox').checked;
-  const key = checked ? 'inclusive' : 'exclusive';
-  document.getElementById('sinceLastText').textContent = spanData.sinceLast[key];
-  document.getElementById('untilNextText').textContent = spanData.untilNext[key];
+const durationData = {"age": {"0000": "0 days", "0001": "15327 days", "0010": "2189 weeks", "0011": "2189 weeks and 4 days", "0100": "503 months", "0101": "503 months and 18 days", "0110": "503 months and 2 weeks", "0111": "503 months, 2 weeks and 4 days", "1000": "41 years", "1001": "41 years and 352 days", "1010": "41 years and 50 weeks", "1011": "41 years, 50 weeks and 2 days", "1100": "41 years and 11 months", "1101": "41 years, 11 months and 18 days", "1110": "41 years, 11 months and 2 weeks", "1111": "41 years, 11 months, 2 weeks and 4 days"}, "sinceLast": {"0000": {"exclusive": "0 days", "inclusive": "0 days"}, "0001": {"exclusive": "352 days", "inclusive": "353 days"}, "0010": {"exclusive": "50 weeks", "inclusive": "50 weeks"}, "0011": {"exclusive": "50 weeks and 2 days", "inclusive": "50 weeks and 3 days"}, "0100": {"exclusive": "11 months", "inclusive": "11 months"}, "0101": {"exclusive": "11 months and 18 days", "inclusive": "11 months and 19 days"}, "0110": {"exclusive": "11 months and 2 weeks", "inclusive": "11 months and 2 weeks"}, "0111": {"exclusive": "11 months, 2 weeks and 4 days", "inclusive": "11 months, 2 weeks and 5 days"}, "1000": {"exclusive": "0 years", "inclusive": "0 years"}, "1001": {"exclusive": "352 days", "inclusive": "353 days"}, "1010": {"exclusive": "50 weeks", "inclusive": "50 weeks"}, "1011": {"exclusive": "50 weeks and 2 days", "inclusive": "50 weeks and 3 days"}, "1100": {"exclusive": "11 months", "inclusive": "11 months"}, "1101": {"exclusive": "11 months and 18 days", "inclusive": "11 months and 19 days"}, "1110": {"exclusive": "11 months and 2 weeks", "inclusive": "11 months and 2 weeks"}, "1111": {"exclusive": "11 months, 2 weeks and 4 days", "inclusive": "11 months, 2 weeks and 5 days"}}, "untilNext": {"0000": {"exclusive": "0 days", "inclusive": "0 days"}, "0001": {"exclusive": "13 days", "inclusive": "14 days"}, "0010": {"exclusive": "1 week", "inclusive": "2 weeks"}, "0011": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}, "0100": {"exclusive": "0 months", "inclusive": "0 months"}, "0101": {"exclusive": "13 days", "inclusive": "14 days"}, "0110": {"exclusive": "1 week", "inclusive": "2 weeks"}, "0111": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}, "1000": {"exclusive": "0 years", "inclusive": "0 years"}, "1001": {"exclusive": "13 days", "inclusive": "14 days"}, "1010": {"exclusive": "1 week", "inclusive": "2 weeks"}, "1011": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}, "1100": {"exclusive": "0 days", "inclusive": "0 days"}, "1101": {"exclusive": "13 days", "inclusive": "14 days"}, "1110": {"exclusive": "1 week", "inclusive": "2 weeks"}, "1111": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}}};
+function updateDurations() {
+  const order = ['years', 'months', 'weeks', 'days'];
+  let key = '';
+  for (const u of order) {
+    const cb = document.querySelector('input.unitCheckbox[data-unit="' + u + '"]');
+    key += cb.checked ? '1' : '0';
+  }
+  const includeEnd = document.getElementById('includeEndDateCheckbox').checked;
+  const spanKey = includeEnd ? 'inclusive' : 'exclusive';
+  document.getElementById('ageText').textContent = durationData.age[key];
+  document.getElementById('sinceLastText').textContent = durationData.sinceLast[key][spanKey];
+  document.getElementById('untilNextText').textContent = durationData.untilNext[key][spanKey];
 }
 </script>
 {% endraw %}
