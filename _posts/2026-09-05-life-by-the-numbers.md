@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 13:20:37 -0400
+date: 2026-09-05 17:46:40 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -88,10 +88,10 @@ function updateDurations() {
       position: absolute; top: 8px; right: 12px; color: #999999; background: none; border: none;
       font-size: 20px; cursor: pointer; line-height: 1;
     }
-    .cipherLetterRow { display: flex; gap: 8px; margin: 4px 0; font-family: monospace; font-weight: 700; }
-    .cipherLetterRow span { min-width: 18px; text-align: center; display: inline-block; }
-    .cipherLettersRow { color: #ef9a63; }
-    .cipherValuesRow { color: #6fa8dc; }
+    .cipherRow { display: flex; gap: 8px; margin: 4px 0; overflow-x: auto; padding-bottom: 4px; }
+    .cipherCol { display: flex; flex-direction: column; align-items: center; min-width: 18px; font-family: monospace; font-weight: 700; }
+    .cipherLetter { color: #ef9a63; }
+    .cipherValue { color: #6fa8dc; font-size: 0.85em; }
     .cipherNav { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 18px; }
     .cipherNav button {
       background: none; border: 1px solid #666666; color: #ffffff; border-radius: 50%;
@@ -100,7 +100,7 @@ function updateDurations() {
     #cipherModalName { color: #4caf50; font-weight: 600; font-size: 16px; }
     #nameCalcTitle { color: #5dc9f1; font-style: italic; font-size: 15px; text-align: center; margin: 4px 30px 20px 0; }
     #nameCalcTitle strong { color: #5dc9f1; }
-    #nameCalcRow { display: flex; align-items: flex-end; justify-content: center; gap: 10px; overflow-x: auto; padding-bottom: 6px; }
+    #nameCalcRow { display: flex; align-items: flex-end; justify-content: flex-start; gap: 10px; overflow-x: auto; padding-bottom: 6px; }
     .nameCalcWordGroup { display: flex; gap: 6px; background: #262626; padding: 6px 10px; border-radius: 6px; }
     .nameCalcLetterCol { display: flex; flex-direction: column; align-items: center; }
     .nameCalcLetter { color: #ef9a63; font-weight: 700; font-family: monospace; font-size: 15px; }
@@ -160,10 +160,8 @@ function updateDurations() {
   <div id="cipherModalOverlay" class="gemModalOverlay" onclick="if (event.target === this) closeCipherModal()">
     <div class="gemModalBox">
       <button class="gemModalClose" onclick="closeCipherModal()">&times;</button>
-      <div class="cipherLetterRow cipherLettersRow" id="cipherLowerLetters"></div>
-      <div class="cipherLetterRow cipherValuesRow" id="cipherLowerValues"></div>
-      <div class="cipherLetterRow cipherLettersRow" id="cipherUpperLetters"></div>
-      <div class="cipherLetterRow cipherValuesRow" id="cipherUpperValues"></div>
+      <div class="cipherRow" id="cipherLowerRow"></div>
+      <div class="cipherRow" id="cipherUpperRow"></div>
       <div class="cipherNav">
         <button onclick="navCipher(-1)">&#9650;</button>
         <span id="cipherModalName"></span>
@@ -198,15 +196,16 @@ function updateGematria(variant) {
     renderNameCalcModal();
   }
 }
+function buildCipherRow(letters, values) {
+  return letters.map((c, i) => `<div class="cipherCol"><span class="cipherLetter">${c}</span><span class="cipherValue">${values[i]}</span></div>`).join('');
+}
 function renderCipherModal() {
   const name = cipherOrder[currentCipherIndex];
   const data = cipherLetterData[name];
   const lower = 'abcdefghijklmnopqrstuvwxyz'.split('');
   const upper = lower.map(c => c.toUpperCase());
-  document.getElementById('cipherLowerLetters').innerHTML = lower.map(c => `<span>${c}</span>`).join('');
-  document.getElementById('cipherLowerValues').innerHTML = data.lower.map(v => `<span>${v}</span>`).join('');
-  document.getElementById('cipherUpperLetters').innerHTML = upper.map(c => `<span>${c}</span>`).join('');
-  document.getElementById('cipherUpperValues').innerHTML = data.upper.map(v => `<span>${v}</span>`).join('');
+  document.getElementById('cipherLowerRow').innerHTML = buildCipherRow(lower, data.lower);
+  document.getElementById('cipherUpperRow').innerHTML = buildCipherRow(upper, data.upper);
   document.getElementById('cipherModalName').textContent = name;
 }
 function openCipherModal(cipherName) {
