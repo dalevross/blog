@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 00:49:04 -0400
+date: 2026-09-05 00:53:45 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -44,7 +44,8 @@ It's been 11 months, 2 weeks and 4 days since my last birthday (September 18, 20
   </select>
   <style>
     #gematriaTable { background-color: #1a1a1a; border-collapse: collapse; }
-    #gematriaTable th, #gematriaTable td { padding: 4px 10px; }
+    #gematriaTable tr, #gematriaTable tr:nth-child(even) { background-color: #1a1a1a; }
+    #gematriaTable th, #gematriaTable td { padding: 4px 10px; background-color: #1a1a1a; border-color: #333333; }
     #gematriaTable th { color: #eeeeee; text-align: left; }
     #gematriaTable td:last-child { color: #eeeeee; }
   </style>
