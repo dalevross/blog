@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 13:12:55 -0400
+date: 2026-09-05 13:20:37 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -252,7 +252,7 @@ function renderNameCalcModal() {
       rowHtml += `<div class="nameCalcLetterCol"><span class="nameCalcLetter">${l.ch}</span><span class="nameCalcValue">${l.val}</span></div>`;
     });
     rowHtml += '</div>';
-    if (idx < breakdown.words.length - 1) {
+    if (breakdown.words.length > 1) {
       rowHtml += `<div class="nameCalcSubtotal">${w.subtotal}</div>`;
     }
   });
