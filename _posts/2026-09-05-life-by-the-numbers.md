@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 10:39:07 -0400
+date: 2026-09-05 10:41:10 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -138,4 +138,4 @@ function updateGematria(variant) {
 
 ---
 
-This post was inspired and heavily influenced by Derek's website at [gematrinator.com](https://gematrinator.com).
+This post was inspired and heavily influenced by Derek's website at <a href="https://gematrinator.com" target="_blank" rel="noopener">gematrinator.com</a>.
