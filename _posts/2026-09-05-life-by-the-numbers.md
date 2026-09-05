@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 06:00:00 -0400
-categories: numerology
+date: 2026-09-05 00:44:21 -0400
+categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
 tags: ["numerology", "gematria", "life-by-the-numbers"]
