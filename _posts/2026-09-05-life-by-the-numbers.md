@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 00:53:45 -0400
+date: 2026-09-05 00:59:45 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -12,7 +12,20 @@ tags: ["numerology", "gematria", "life-by-the-numbers"]
 
 I am 41 years, 11 months, 2 weeks and 4 days old today.
 
-It's been 11 months, 2 weeks and 4 days since my last birthday (September 18, 2025), and 1 week and 6 days until my next one (September 18, 2026).
+It's been <span id="sinceLastText">11 months, 2 weeks and 4 days</span> since my last birthday (September 18, 2025), and <span id="untilNextText">1 week and 6 days</span> until my next one (September 18, 2026).
+
+<label><input type="checkbox" id="includeEndDateCheckbox" onchange="toggleEndDateSpan()"> Include end date in span</label>
+{% raw %}
+<script>
+const spanData = {"sinceLast": {"exclusive": "11 months, 2 weeks and 4 days", "inclusive": "11 months, 2 weeks and 5 days"}, "untilNext": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}};
+function toggleEndDateSpan() {
+  const checked = document.getElementById('includeEndDateCheckbox').checked;
+  const key = checked ? 'inclusive' : 'exclusive';
+  document.getElementById('sinceLastText').textContent = spanData.sinceLast[key];
+  document.getElementById('untilNextText').textContent = spanData.untilNext[key];
+}
+</script>
+{% endraw %}
 
 ## Today's Date Numerology
 
