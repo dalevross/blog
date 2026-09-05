@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 04:00:05 -0400
+date: 2026-09-05 10:28:50 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
@@ -56,7 +56,7 @@ function updateDurations() {
 | 10 | Month + Day + 2-digit Year Digits: `(9) + (5) + 2+6` | 22 |
 | 11 | Month + Day (1-digit) + 2-digit Year: `9 + 5 + (26)` | 40 |
 | 12 | Digit Concatenation (full year): `9 x 5 x 2 x 2 x 6` | 1080 |
-| 13 | Digit Product (full year): `9 x 5 x 2 x 6` | 540 |
+| 13 | Digit Product (2-digit year): `9 x 5 x 2 x 6` | 540 |
 
 ## Name Gematria
 
