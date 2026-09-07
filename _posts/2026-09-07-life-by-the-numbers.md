@@ -10,7 +10,7 @@ tags: ["numerology", "gematria", "life-by-the-numbers"]
 
 ## ⚡ Numerical Matches Today
 
-- **Match:** The number **62** appears in Date Numerology (Full Date Sum (2-digit month/day, 4-digit year split in 2), Month + Day (1-digit) + Full Year Halves); Name Gematria (Reduction).
+- **Match:** The number **62** appears in Date Numerology (Full Date Sum (2-digit month/day, 4-digit year split in 2), Month + Day (1-digit) + Full Year Halves); Name Gematria (for "Dale Vivian Ross") (Reduction).
 
 ## Age
 
