@@ -1,18 +1,22 @@
 ---
 layout: post
-title: "Life by the Numbers — September 5, 2026"
-date: 2026-09-05 17:46:40 -0400
+title: "Life by the Numbers — September 7, 2026"
+date: 2026-09-07 00:00:01 -0400
 categories: gematria
 description: An automatically generated look at today's numbers.
 comments: true
 tags: ["numerology", "gematria", "life-by-the-numbers"]
+image: images/matches/2026-09-07-matches-86a611d234.png
+twitter-image: images/matches/2026-09-07-matches-86a611d234.png
 ---
+
+<div id="matches-block"><style>#matches-block h2 { margin-bottom: 10px; }.matchCard { background: #1a1a1a; border: 1px solid #3a3a3a; border-left: 4px solid #5dc9f1; border-radius: 10px; padding: 14px 18px; margin: 10px 0; }.matchCard.trifecta { border-left-color: #ffd54f; box-shadow: 0 0 0 1px rgba(255,213,79,0.25); }.matchCardTop { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }.matchBadge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; background: #5dc9f1; color: #0a0a0a; }.matchBadge.trifecta { background: #ffd54f; }.matchValue { font-size: 26px; font-weight: 800; color: #4caf50; font-family: monospace; }.matchSection { font-size: 0.92em; color: #cccccc; margin: 2px 0; }.matchSectionName { color: #ef9a63; font-weight: 700; }.matchItems { color: #bbbbbb; }</style><h2>⚡ Numerical Matches Today</h2><div class="matchCard match"><div class="matchCardTop"><span class="matchBadge match">Match</span><span class="matchValue">42</span></div><div class="matchSections"><div class="matchSection"><span class="matchSectionName">Date Numerology:</span> <span class="matchItems">Full Date Sum (2-digit month/day, 2-digit year), Month + Day (1-digit) + 2-digit Year</span></div><div class="matchSection"><span class="matchSectionName">Name Gematria:</span> <span class="matchItems">Trigrammaton Qabalah ("Dale")</span></div></div></div><div class="matchCard match"><div class="matchCardTop"><span class="matchBadge match">Match</span><span class="matchValue">62</span></div><div class="matchSections"><div class="matchSection"><span class="matchSectionName">Date Numerology:</span> <span class="matchItems">Full Date Sum (2-digit month/day, 4-digit year split in 2), Month + Day (1-digit) + Full Year Halves</span></div><div class="matchSection"><span class="matchSectionName">Name Gematria:</span> <span class="matchItems">Reduction ("Dale Vivian Ross")</span></div></div></div><div class="matchCard match"><div class="matchCardTop"><span class="matchBadge match">Match</span><span class="matchValue">115</span></div><div class="matchSections"><div class="matchSection"><span class="matchSectionName">Date Numerology:</span> <span class="matchItems">Days Left in Year</span></div><div class="matchSection"><span class="matchSectionName">Name Gematria:</span> <span class="matchItems">Ordinal ("Dale V Ross")</span></div></div></div></div>
 
 ## Age
 
-I am <span id="ageText">41 years, 11 months, 2 weeks and 4 days</span> old today.
+I am <span id="ageText">41 years, 11 months, 2 weeks and 6 days</span> old today.
 
-It's been <span id="sinceLastText">11 months, 2 weeks and 4 days</span> since my last birthday (September 18, 2025), and <span id="untilNextText">1 week and 6 days</span> until my next one (September 18, 2026).
+It's been <span id="sinceLastText">11 months, 2 weeks and 6 days</span> since my last birthday (September 18, 2025), and <span id="untilNextText">1 week and 4 days</span> until my next one (September 18, 2026).
 
 <div>
   <label><input type="checkbox" class="unitCheckbox" data-unit="years" checked onchange="updateDurations()"> Years</label>
@@ -23,7 +27,7 @@ It's been <span id="sinceLastText">11 months, 2 weeks and 4 days</span> since my
 <label><input type="checkbox" id="includeEndDateCheckbox" onchange="updateDurations()"> Include end date in span</label>
 {% raw %}
 <script>
-const durationData = {"age": {"0000": "0 days", "0001": "15327 days", "0010": "2189 weeks", "0011": "2189 weeks and 4 days", "0100": "503 months", "0101": "503 months and 18 days", "0110": "503 months and 2 weeks", "0111": "503 months, 2 weeks and 4 days", "1000": "41 years", "1001": "41 years and 352 days", "1010": "41 years and 50 weeks", "1011": "41 years, 50 weeks and 2 days", "1100": "41 years and 11 months", "1101": "41 years, 11 months and 18 days", "1110": "41 years, 11 months and 2 weeks", "1111": "41 years, 11 months, 2 weeks and 4 days"}, "sinceLast": {"0000": {"exclusive": "0 days", "inclusive": "0 days"}, "0001": {"exclusive": "352 days", "inclusive": "353 days"}, "0010": {"exclusive": "50 weeks", "inclusive": "50 weeks"}, "0011": {"exclusive": "50 weeks and 2 days", "inclusive": "50 weeks and 3 days"}, "0100": {"exclusive": "11 months", "inclusive": "11 months"}, "0101": {"exclusive": "11 months and 18 days", "inclusive": "11 months and 19 days"}, "0110": {"exclusive": "11 months and 2 weeks", "inclusive": "11 months and 2 weeks"}, "0111": {"exclusive": "11 months, 2 weeks and 4 days", "inclusive": "11 months, 2 weeks and 5 days"}, "1000": {"exclusive": "0 years", "inclusive": "0 years"}, "1001": {"exclusive": "352 days", "inclusive": "353 days"}, "1010": {"exclusive": "50 weeks", "inclusive": "50 weeks"}, "1011": {"exclusive": "50 weeks and 2 days", "inclusive": "50 weeks and 3 days"}, "1100": {"exclusive": "11 months", "inclusive": "11 months"}, "1101": {"exclusive": "11 months and 18 days", "inclusive": "11 months and 19 days"}, "1110": {"exclusive": "11 months and 2 weeks", "inclusive": "11 months and 2 weeks"}, "1111": {"exclusive": "11 months, 2 weeks and 4 days", "inclusive": "11 months, 2 weeks and 5 days"}}, "untilNext": {"0000": {"exclusive": "0 days", "inclusive": "0 days"}, "0001": {"exclusive": "13 days", "inclusive": "14 days"}, "0010": {"exclusive": "1 week", "inclusive": "2 weeks"}, "0011": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}, "0100": {"exclusive": "0 months", "inclusive": "0 months"}, "0101": {"exclusive": "13 days", "inclusive": "14 days"}, "0110": {"exclusive": "1 week", "inclusive": "2 weeks"}, "0111": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}, "1000": {"exclusive": "0 years", "inclusive": "0 years"}, "1001": {"exclusive": "13 days", "inclusive": "14 days"}, "1010": {"exclusive": "1 week", "inclusive": "2 weeks"}, "1011": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}, "1100": {"exclusive": "0 days", "inclusive": "0 days"}, "1101": {"exclusive": "13 days", "inclusive": "14 days"}, "1110": {"exclusive": "1 week", "inclusive": "2 weeks"}, "1111": {"exclusive": "1 week and 6 days", "inclusive": "2 weeks"}}};
+const durationData = {"age": {"0000": "0 days", "0001": "15329 days", "0010": "2189 weeks", "0011": "2189 weeks and 6 days", "0100": "503 months", "0101": "503 months and 20 days", "0110": "503 months and 2 weeks", "0111": "503 months, 2 weeks and 6 days", "1000": "41 years", "1001": "41 years and 354 days", "1010": "41 years and 50 weeks", "1011": "41 years, 50 weeks and 4 days", "1100": "41 years and 11 months", "1101": "41 years, 11 months and 20 days", "1110": "41 years, 11 months and 2 weeks", "1111": "41 years, 11 months, 2 weeks and 6 days"}, "sinceLast": {"0000": {"exclusive": "0 days", "inclusive": "0 days"}, "0001": {"exclusive": "354 days", "inclusive": "355 days"}, "0010": {"exclusive": "50 weeks", "inclusive": "50 weeks"}, "0011": {"exclusive": "50 weeks and 4 days", "inclusive": "50 weeks and 5 days"}, "0100": {"exclusive": "11 months", "inclusive": "11 months"}, "0101": {"exclusive": "11 months and 20 days", "inclusive": "11 months and 21 days"}, "0110": {"exclusive": "11 months and 2 weeks", "inclusive": "11 months and 3 weeks"}, "0111": {"exclusive": "11 months, 2 weeks and 6 days", "inclusive": "11 months and 3 weeks"}, "1000": {"exclusive": "0 years", "inclusive": "0 years"}, "1001": {"exclusive": "354 days", "inclusive": "355 days"}, "1010": {"exclusive": "50 weeks", "inclusive": "50 weeks"}, "1011": {"exclusive": "50 weeks and 4 days", "inclusive": "50 weeks and 5 days"}, "1100": {"exclusive": "11 months", "inclusive": "11 months"}, "1101": {"exclusive": "11 months and 20 days", "inclusive": "11 months and 21 days"}, "1110": {"exclusive": "11 months and 2 weeks", "inclusive": "11 months and 3 weeks"}, "1111": {"exclusive": "11 months, 2 weeks and 6 days", "inclusive": "11 months and 3 weeks"}}, "untilNext": {"0000": {"exclusive": "0 days", "inclusive": "0 days"}, "0001": {"exclusive": "11 days", "inclusive": "12 days"}, "0010": {"exclusive": "1 week", "inclusive": "1 week"}, "0011": {"exclusive": "1 week and 4 days", "inclusive": "1 week and 5 days"}, "0100": {"exclusive": "0 months", "inclusive": "0 months"}, "0101": {"exclusive": "11 days", "inclusive": "12 days"}, "0110": {"exclusive": "1 week", "inclusive": "1 week"}, "0111": {"exclusive": "1 week and 4 days", "inclusive": "1 week and 5 days"}, "1000": {"exclusive": "0 years", "inclusive": "0 years"}, "1001": {"exclusive": "11 days", "inclusive": "12 days"}, "1010": {"exclusive": "1 week", "inclusive": "1 week"}, "1011": {"exclusive": "1 week and 4 days", "inclusive": "1 week and 5 days"}, "1100": {"exclusive": "0 days", "inclusive": "0 days"}, "1101": {"exclusive": "11 days", "inclusive": "12 days"}, "1110": {"exclusive": "1 week", "inclusive": "1 week"}, "1111": {"exclusive": "1 week and 4 days", "inclusive": "1 week and 5 days"}}};
 function updateDurations() {
   const order = ['years', 'months', 'weeks', 'days'];
   let key = '';
@@ -44,19 +48,19 @@ function updateDurations() {
 
 | # | Calculation | Result |
 |---|---|---|
-| 1 | Full Date Sum (2-digit month/day, 4-digit year split in 2): `(9) + (5) + (20) + (26)` | **60** |
-| 2 | Full Date Sum (2-digit month/day, 4-digit year digits): `(9) + (5) + 2+0+2+6` | 24 |
-| 3 | Full Date Sum (1-digit month/day, 4-digit year digits): `9 + 5 + 2+0+2+6` | 24 |
-| 4 | Full Date Sum (2-digit month/day, 2-digit year): `(9) + (5) + (26)` | 40 |
-| 5 | Full Date Sum (1-digit month/day, 2-digit year): `9 + 5 + 2+6` | 22 |
-| 6 | Day of Year: `Day of Year: (Sep-5)` | 248 |
-| 7 | Days Left in Year: `Days Left in Year: (Sep-5)` | 117 |
-| 8 | Month + Day Only: `(9) + (5)` | 14 |
-| 9 | Month + Day (1-digit) + Full Year Halves: `9 + 5 + (20) + (26)` | 60 |
-| 10 | Month + Day + 2-digit Year Digits: `(9) + (5) + 2+6` | 22 |
-| 11 | Month + Day (1-digit) + 2-digit Year: `9 + 5 + (26)` | 40 |
-| 12 | Digit Concatenation (full year): `9 x 5 x 2 x 2 x 6` | 1080 |
-| 13 | Digit Product (2-digit year): `9 x 5 x 2 x 6` | 540 |
+| 1 | Full Date Sum (2-digit month/day, 4-digit year split in 2): `(9) + (7) + (20) + (26)` | **62** |
+| 2 | Full Date Sum (2-digit month/day, 4-digit year digits): `(9) + (7) + 2+0+2+6` | 26 |
+| 3 | Full Date Sum (1-digit month/day, 4-digit year digits): `9 + 7 + 2+0+2+6` | 26 |
+| 4 | Full Date Sum (2-digit month/day, 2-digit year): `(9) + (7) + (26)` | 42 |
+| 5 | Full Date Sum (1-digit month/day, 2-digit year): `9 + 7 + 2+6` | 24 |
+| 6 | Day of Year: `Day of Year: (Sep-7)` | 250 |
+| 7 | Days Left in Year: `Days Left in Year: (Sep-7)` | 115 |
+| 8 | Month + Day Only: `(9) + (7)` | 16 |
+| 9 | Month + Day (1-digit) + Full Year Halves: `9 + 7 + (20) + (26)` | 62 |
+| 10 | Month + Day + 2-digit Year Digits: `(9) + (7) + 2+6` | 24 |
+| 11 | Month + Day (1-digit) + 2-digit Year: `9 + 7 + (26)` | 42 |
+| 12 | Digit Concatenation (full year): `9 x 7 x 2 x 2 x 6` | 1512 |
+| 13 | Digit Product (2-digit year): `9 x 7 x 2 x 6` | 756 |
 
 ## Name Gematria
 
