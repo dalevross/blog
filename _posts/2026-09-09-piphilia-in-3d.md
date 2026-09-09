@@ -10,7 +10,7 @@ image: images/piphilia-in-3d-og.png
 twitter-image: images/piphilia-in-3d-og.png
 ---
 
-If you've played [Piphilia](https://tinyurl.com/piphilia) — my falling-block memory game where you tap the digits of pi in order — you know the look: rows of numbered blocks raining down, ten per row. I wondered what it would feel like in 3D, so I had Pi build it with Three.js.
+If you've played [Piphilia](https://tinyurl.com/piphilia) — my falling-block memory game where you tap the digits of pi in order — you know the look: rows of numbered blocks raining down, ten per row. I wondered what it would feel like in 3D, so I had Pi — my Meta Muse AI assistant — build it with Three.js.
 
 What you see below is a self-playing demo. Each row falls from the sky; when it lands, the next digit of &pi; glows gold and the row clears. Drag to orbit around it.
 
