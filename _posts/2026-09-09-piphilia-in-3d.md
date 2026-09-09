@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Piphilia in 3D: Falling Blocks with Three.js"
-date: 2026-09-09 03:05:00 -0400
+date: 2026-09-09 02:57:29 -0400
 categories: projects
 description: "A self-playing 3D demo of my Piphilia falling-block pi game, rendered live with Three.js. Drag to orbit."
 comments: true
