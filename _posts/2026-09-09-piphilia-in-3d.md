@@ -6,6 +6,8 @@ categories: projects
 description: "A self-playing 3D demo of my Piphilia falling-block pi game, rendered live with Three.js. Drag to orbit."
 comments: true
 tags: ["three.js", "piphilia", "webgl", "javascript"]
+image: images/piphilia-in-3d-og.png
+twitter-image: images/piphilia-in-3d-og.png
 ---
 
 If you've played [Piphilia](https://tinyurl.com/piphilia) — my falling-block memory game where you tap the digits of pi in order — you know the look: rows of numbered blocks raining down, ten per row. I wondered what it would feel like in 3D, so I had Pi build it with Three.js.
