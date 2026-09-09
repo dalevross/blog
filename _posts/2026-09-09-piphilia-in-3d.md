@@ -102,12 +102,27 @@ for (let d = 0; d <= 9; d++) {
 
 let piIndex = 0, cleared = 0, row = null;
 
+function shuffledDigits(target) {
+  const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  for (let i = digits.length - 1; i > 0; i--) {
+    const j = (Math.random() * (i + 1)) | 0;
+    const tmp = digits[i];
+    digits[i] = digits[j];
+    digits[j] = tmp;
+  }
+  const targetCol = (Math.random() * COLS) | 0;
+  const at = digits.indexOf(target);
+  digits[at] = digits[targetCol];
+  digits[targetCol] = target;
+  return digits;
+}
+
 function spawnRow() {
   const target = Number(PI[piIndex % PI.length]);
-  const targetCol = (Math.random() * COLS) | 0;
+  const order = shuffledDigits(target);
   const meshes = [];
   for (let c = 0; c < COLS; c++) {
-    const d = (c === targetCol) ? target : ((Math.random() * 10) | 0);
+    const d = order[c];
     const mesh = new THREE.Mesh(geo, matNormal[d]);
     mesh.position.set((c - (COLS - 1) / 2) * GAP, SPAWN_Y + Math.random() * 1.5, 0);
     mesh.userData = { digit: d, col: c, glow: false };
@@ -196,7 +211,7 @@ tick();
 
 ## How it works
 
-The whole scene is plain Three.js — no build step, no framework. Rounded boxes get their digits from canvas textures (drawn once per digit, reused everywhere), rows are generated with the next digit of &pi; hidden at a random column, and a tiny state machine runs each row through falling, landing, glowing, and clearing. OrbitControls gives you the drag-to-rotate for free. View source on this page if you want to steal it.
+The whole scene is plain Three.js — no build step, no framework. Rounded boxes get their digits from canvas textures (drawn once per digit, reused everywhere), rows are generated as a shuffled 0–9 with the next digit of &pi; swapped into a random column, and a tiny state machine runs each row through falling, landing, glowing, and clearing. OrbitControls gives you the drag-to-rotate for free. View source on this page if you want to steal it.
 
 ## The real game
 
