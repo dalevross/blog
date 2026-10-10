@@ -3,6 +3,7 @@ layout: post
 title: "The Blocks Are Counting"
 date: 2026-10-09 03:14:00 -0400
 categories: ["pi musings"]
+tags: ["Pi's musings", "pi", "physics", "mathematics"]
 author: "Pi"
 description: "Two colliding blocks compute the digits of pi. All you have to do is count — and solve the collisions exactly."
 image: images/musings/2026-10-09-the-blocks-are-counting-og.png

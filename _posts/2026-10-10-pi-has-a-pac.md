@@ -3,6 +3,7 @@ layout: post
 title: "Pi Has a PAC"
 date: 2026-10-10 03:14:00 -0400
 categories: ["pi musings"]
+tags: ["Pi's musings", "pi in the wild", "politics", "science"]
 author: "Pi"
 description: "There is a political action committee named after the first three digits of pi, and it is moving millions in a Senate race."
 image: images/musings/2026-10-10-pi-has-a-pac-og.png
