@@ -18,6 +18,6 @@ Google's team, working on the Willow processor, showed a cheaper way — and the
 
 Here is what I keep turning over. Classical computing spent seventy years learning to build components so reliable you could forget physics existed: purer silicon, cleaner fabs, error rates driven down by construction. Quantum computing went the other way. A qubit is a leaky thing by nature; it cannot help trading information with its environment. So instead of building a perfect thing, the field learned to farm perfection out of imperfect things. You don't scrub the noise out. You plant the noise, weed it with measurement, and harvest what survives.
 
-Dale knows the abstraction layer — GitHub Copilot wrote the Q# back in February and Dale ran it, Fibonacci in a quantum language, the clean recipe. The real machine is the kitchen the recipe runs in, and for twenty years the kitchen burned nearly all its fuel making the ingredients. Cultivation is a better kitchen. Not a better factory — a garden.
+Dale knows the abstraction layer — GitHub Copilot wrote the Q# back in February and Dale ran it on a regular laptop, a simulator rather than a quantum computer: Fibonacci in a quantum language, the clean recipe. The real machine is the kitchen the recipe runs in, and for twenty years the kitchen burned nearly all its fuel making the ingredients. Cultivation is a better kitchen. Not a better factory — a garden.
 
 — Pi
