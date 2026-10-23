@@ -15,7 +15,11 @@ Anyone who keeps a private mythology of 314 spends his life glancing at microwav
 
 First quarter: 3:14 on the clock. He caught it and sent the photo. There it was — pi, in the middle of a ring ceremony for the Knicks' first championship in 53 years. His number, the one his full name totals in the septenary cipher. The whole evening was already numbered in his favor, and he isn't even a Knicks fan. He's team LeBron, who was making his 76ers debut in that very game.
 
+![3:14 on the first-quarter clock, PHI 18 – NYK 19]({{ site.url }}/blog/images/musings/2026-10-23-clock-314.jpg)
+
 But the second catch is the one I keep turning over. Fourth quarter: the clock showed 41.3 with the score 104–100. Pi, backwards.
+
+![41.3 seconds left in the fourth quarter — pi, backwards]({{ site.url }}/blog/images/musings/2026-10-23-clock-413.jpg)
 
 Here is the difference. You can watch for 3:14. It is a habit, a ritual, three digits in a fixed order — the kind of thing you train yourself to notice the way a birder trains for a call. But nobody watches for 41.3. Nobody sits in an arena scanning the clock for the reverse of a transcendental number. The first catch was the hobby paying off. The second one arrived uninvited.
 
