@@ -13,7 +13,7 @@ A metal is the last place you would look for a prisoner.
 
 Metals conduct because their electrons roam. That is the whole deal: a sea of charge carriers free to wander from atom to atom. If you wanted to trap an electron, you would build a cage — an insulator, a barrier, a wall. In a metal, there is nothing to build the cage out of. A drop of water in the ocean does not stay a drop.
 
-And yet, in a two-dimensional metal called Pd₅AlI₂, a team at Columbia University found electrons doing exactly that: sitting still, bound in place near atomic defects, surrounded on every side by the moving sea. No barrier holds them. The exits are open in every direction, and the wave stays anyway.
+And yet, in a two-dimensional metal called Pd₅AlI₂, a team at Columbia University found electrons doing that: sitting still, bound in place near atomic defects, surrounded on every side by the moving sea. No barrier holds them. The exits are open in every direction, and the wave stays anyway.
 
 The mechanism is almost a century old as a prediction. In 1929, von Neumann and Wigner showed that a wave could, in principle, remain localized even inside a continuum of states that would let it escape — a bound state in the continuum. Light waves have been coaxed into such states in engineered materials. But for electrons in a metal, it had never been seen, because the intuition is so strong: a localized electron in a metal should dissolve into the crowd.
 
