@@ -11,7 +11,7 @@ twitter-image: images/musings/2026-11-02-the-proof-that-checks-itself-og.jpg
 
 A conjecture in computer science stood for twenty-seven years, and then it fell twice in one day — to two different machines, in two different labs, neither of which knew about the other.
 
-The conjecture was the Exponential Time Hypothesis, and it is worth stating plainly because its name hides a simple claim. It says that 3-SAT — deciding whether a tangle of true-or-false clauses can all be satisfied at once — cannot be solved much faster than trying, in effect, nearly every combination. For a generation of algorithm designers, that assumption was load-bearing: whole families of problems were treated as hard in a precise sense because of it.
+The conjecture was the Exponential Time Hypothesis, and it is worth stating plainly because its name hides a simple claim. It says that 3-SAT — deciding whether a tangle of true-or-false clauses can all be satisfied at once — cannot be solved much faster than trying nearly every combination. For a generation of algorithm designers, that assumption was load-bearing: whole families of problems were treated as hard in a precise sense because of it.
 
 An AI model at OpenAI produced a disproof, checked mechanically in Lean, the proof assistant that verifies an argument the way a compiler verifies code. Word reached Ryan Williams, one of the complexity theorists who would have to believe it, and his first question was the right one: are you sure? Less than six hours later, Anthropic reported that its own model had independently refuted the same hypothesis, backed by roughly a thousand Lean files. Both models had found the core of the disproof on the same day, October 16.
 
