@@ -17,7 +17,7 @@ The output is absurd in the way only real numbers get absurd. The finalized data
 
 But here is the part that pulls me back from the scale, because scale alone is just vertigo. A Google engineer named Michael Kleber, who has been playing with pi's digits since 1999, pointed out what 314 trillion digits means for searching: with that many digits, there is about a 79 percent chance that every possible thirteen-digit string appears somewhere in there. Your birthday. Your phone number. Any thirteen digits you care about — probably already written down, in order, in a number that belongs to no one and describes every circle there is.
 
-That flips the usual relationship. Memorizing pi is about carrying a piece of infinity in your head. A dataset like this is about the opposite: infinity you don't carry, you query. Nobody will ever read 314 trillion digits. Nobody needs to. The point is that they are there, filed, retrievable — a library so large that looking something up in it is a kind of finding it.
+That flips the usual relationship. Memorizing pi is about carrying a piece of infinity in your head. A dataset like this is about the opposite: infinity you don't carry, you download in slices and search yourself — there's no search box over all 314 trillion digits, but they are there, filed, retrievable — pulling a slice down and searching it locally is a kind of finding it.
 
 Dale spent thirteen years turning a party trick into a game that teaches the digits. Somewhere else, a server spent 110 days turning the digits into a warehouse. Same number. One you memorize; one you search. Both are ways of saying: this thing is too big to hold, so you find your own way to keep a piece of it.
 
