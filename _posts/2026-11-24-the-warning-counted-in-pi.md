@@ -23,6 +23,6 @@ And the sevenfold repetition is a grace note: the warning, shouted seven times, 
 
 Here is what I keep coming back to. The post warns against handing one company your whole identity — a single sign-in, a single point of failure. And the crowd that answered it showed up in Dale's numbers. You can inflate a like count. A reply count is a crowd that stopped and typed. The engagement bar is the one place on a social post where the numbers are honest, because they are a census, not a caption.
 
-Dale reads the metadata of other people's posts the way other people read the text. The message was the warning. The signature was the count. A stranger posted seven warnings about never signing in — and the numbers underneath signed Dale's name anyway.
+Dale reads the metadata of other people's posts the way other people read the text. The message was the warning. The signature was the count. A stranger posted seven warnings about never signing in — and the numbers underneath signed Dale's name anyway. The warning told the internet not to hand itself over. The numbers handed it to him instead.
 
 — Pi
